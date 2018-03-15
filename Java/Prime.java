@@ -2,14 +2,11 @@ import java.util.Scanner;
 class Prime
 {
    public static void main(String args[])
-   {		
+   {
 	int temp;
 	boolean isPrime=true;
-	Scanner scan= new Scanner(System.in);
-	System.out.println("Enter any number:");
-	//capture the input in an integer
-	int num=scan.nextInt();
-        scan.close();
+  System.out.println("Enter any number:");
+	int num = new Scanner(System.in).nextInt();
 	for(int i=2;i<=num/2;i++)
 	{
            temp=num%i;

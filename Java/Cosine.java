@@ -1,19 +1,21 @@
-import java.io.DataInputStream;
+import java.util.Scanner;
  
 class Cosine {
     public static void main(String args[])
     {
-		DataInputStream in=new DataInputStream(System.in);
+		Scanner sc=new Scanner(System.in);
 		int n,k=-1,f=1,i,ch,t=0;
 		double p,s=0,x,rad,r=0;
-		try
-		{
-			System.out.println("Enter the values of x and n:");
-			x=Float.valueOf(in.readLine()).floatValue();
-			n=Integer.parseInt(in.readLine());
+		//try
+		//{
+			System.out.println("Enter the values of x and n :");
+			//x=Float.valueOf(in.readLine()).floatValue();
+			//n=Integer.parseInt(in.readLine());
+                        x=sc.nextInt();
+                        n=sc.nextInt();
 			System.out.println("\n1.Sine Series \n2.Cosine Series");
 			System.out.println("Enter your choice : ");
-			ch=Integer.parseInt(in.readLine());
+			ch=sc.nextInt();
 			rad=3.14/180*x;
 			if(ch==1)
 			{
@@ -43,10 +45,10 @@ class Cosine {
 			}
 			else
 				System.out.println("Wrong Choice!");	
-		}
+		/*}
 		catch(Exception e)
 		{ 
 			System.out.println("Error : "+e);
-		}
+		}*/
     	}
 }

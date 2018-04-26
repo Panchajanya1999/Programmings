@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-class MatixMultiplication
+class MatMul
 {
     public static void main(String args[])
     {

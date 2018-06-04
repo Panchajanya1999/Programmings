@@ -1,0 +1,41 @@
+import java.applet.Applet;
+import java.awt.*;
+
+public class HousePicture extends Applet
+{
+   
+   
+   public void paint (Graphics page)
+   {
+      setBackground (Color.cyan);
+
+      page.setColor (Color.gray);
+      page.fillRect (0, 200, 400, 50);   
+
+      page.setColor (Color.blue);
+      page.fillRect (50, 125, 300, 100);  
+
+      page.setColor (Color.green);
+      page.fillRect (180, 175, 40, 50);  
+
+      page.setColor (Color.yellow);
+      page.fillRect (100, 155, 40, 25);  
+      page.fillRect (260, 155, 40, 25);  
+
+      page.setColor (Color.black);
+      page.fillRect (40, 100, 320, 40);  
+      page.fillOval (210, 200, 6, 6);   
+
+      page.setColor (Color.red);
+      page.fillRect (80, 80, 20, 40);  
+
+      page.setColor (Color.darkGray);
+      page.fillOval (80, 60, 20, 20);  // smoke
+      page.fillOval (85, 50, 15, 25);  // smoke
+      page.fillOval (90, 45, 15, 20);  // smoke
+
+      page.setColor (Color.white);
+      page.fillOval (200, 30, 80, 40);  // cloud
+      page.fillOval (230, 40, 80, 40);  // cloud
+   }
+}

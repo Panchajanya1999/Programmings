@@ -67,5 +67,5 @@ void main()
     
     printf("\nProcess_no\tProcess_size\tBlock_no\tBlock_size\tFragment");
     for(i=1;i<=np && parray[i]!=0;i++)
-        printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d",i,p[i],parray[i],b[parray[i]],fragment[i]);
+        printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d\n\n",i,p[i],parray[i],b[parray[i]],fragment[i]);
 }

@@ -1,3 +1,5 @@
 # Programmings
-Self-Made Programs For Self-Benefits
-Give Proper CREDITS, IF COPIED...
+
+## Programmes for Computer Science Bachelor's degree from [Vidyasagar University.](http://www.vidyasagar.ac.in/)
+
+###This branch stores the codes for First Year in Three-years Graduation Degree course.

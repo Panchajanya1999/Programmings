@@ -1,3 +1,3 @@
 # Programmings
-Self-Made Programs For Self-Benefits
-Give Proper CREDITS, IF COPIED...
+
+## Stuffs nobody wants to see or deal with

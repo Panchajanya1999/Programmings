@@ -1,3 +1,5 @@
 # Programmings
 
-## Stuffs nobody wants to see or deal with
+## Programmes for Computer Science Bachelor's degree from [Vidyasagar University.](http://www.vidyasagar.ac.in/)
+
+###This branch stores the codes for Second Year in Three-years Graduation Degree course.

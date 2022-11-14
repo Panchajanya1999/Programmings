@@ -36,11 +36,10 @@ def is_paren_balanced(string):
                 if not check_match(top, paren):
                     is_balanced = False
         index += 1
+
+    ret = True if s.is_empty() and is_balanced else False
+    return ret
     
-    if s.is_empty() and is_balanced:
-        return True
-    else:
-        return False
 
 if __name__ == "__main__":
     msg = "Program checks whether a string has balanced usage of parantheses."
@@ -51,5 +50,4 @@ if __name__ == "__main__":
     )
     parser.add_argument("string", metavar="S",type = str, help="String to check for balanced parantheses.")
     args = parser.parse_args()
-    print(args.string)
     print(is_paren_balanced(args.string))

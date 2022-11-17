@@ -38,3 +38,7 @@ clean:
 	@echo -e "$(EYELLOW)Cleaning up generated files..."
 	rm -rf *log *.out *.gz *.fls *.fdb_latexmk *.aux *.toc *.bbl *.blg *.dvi *.ps *.synctex.gz
 	@echo -e "$(EGREEN)Cleaning Done Successfully!"
+
+# Silence these targets from the TTY
+SILENCE := python tex clean
+.SILENT: $(SILENCE)

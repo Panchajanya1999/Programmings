@@ -1,7 +1,6 @@
 # POTD October 2, 2023
 # Number of Distinct Subsequences
-
-#User function Template for python3
+# Link - https://practice.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1
 
 class Solution:
     def distinctSubsequences(self, s):

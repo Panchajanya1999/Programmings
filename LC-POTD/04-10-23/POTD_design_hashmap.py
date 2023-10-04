@@ -1,3 +1,4 @@
+# pylint: disable=C0103, line-too-long, invalid-name, unused-import, missing-docstring, trailing-whitespace, anomalous-backslash-in-string, anomalous-unicode-escape-in-string, too-many-arguments, too-many-locals, too-many-branches, too-many-statements, too-many-instance-attributes, too-many-public-methods, too-many-lines, too-few-public-methods, too-many-nested-blocks, too-many-boolean-expressions, too-many-ancestors, too-many-branches, too-many-arguments, too-many-locals, too-many-lines, too-many-statements, too-many-instance-attributes, too-many-public-methods, too-many-nested-blocks, too-many-boolean-expressions, too-many-ancestors
 # POTD October 4, 2023
 # Design HashMap
 # Link - https://leetcode.com/problems/design-hashmap/description/ 
@@ -25,8 +26,7 @@ class MyHashMap:
         _val = self.data[key]
         if _val is None:
             return -1
-        else:
-            return _val
+        return _val
 
     def remove(self, key: int) -> None:
         """

@@ -46,14 +46,11 @@ class Solution:
             # the 'col' string. Then perform floor division of 'n' by 26 to find the
             # next key.
             else: 
-                col += alphabet_dict.get(rem)
+                col += alphabet_dict.get(rem) # type: ignore
                 n //= 26
         
         # Return the reversed 'col'
         return col[::-1]
-            
-            
-        
 
 #{ 
  # Driver Code Starts
